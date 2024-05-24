@@ -5,11 +5,11 @@ int main()
 {
 
     int n;
-    cout<<"Enter the value of n: "<<endl;
+    cout<<"Enter the value of n: ";
     cin>>n;
 
     int a=0,b=1;
-    cout<<a<<" "<<b<<" ";
+    cout<<"Fibonacci series: "<<a<<" "<<b<<" ";
     
     for( int i = 1;i<=n;i++)
     {
